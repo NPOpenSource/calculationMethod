@@ -25,9 +25,6 @@
         int i = j-1;
         
       int m=  binarySearchLessSortArr(A, 0, i+1, key);
-         NSLog(@"%d",key);
-        printArr(A, i+1);
-        NSLog(@" %d",m);
         for (int k=i; k>m; k--) {
             A[k+1]=A[k];
         }
