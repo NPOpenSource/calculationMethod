@@ -1,0 +1,15 @@
+//
+// Created by user on 17-4-17.
+//
+
+#ifndef MYAPPLICATION_CRYPTOHASH_H
+#define MYAPPLICATION_CRYPTOHASH_H
+
+#define SHA_DIGEST_WORDS 5
+#define SHA_MESSAGE_BYTES (512 /*bits*/ / 8)
+#define SHA_WORKSPACE_WORDS 16
+
+#define MD5_DIGEST_WORDS 4
+#define MD5_MESSAGE_BYTES 64
+
+#endif //MYAPPLICATION_CRYPTOHASH_H

@@ -14,6 +14,9 @@ int binarySearchLessSortArr(int* A,int begin ,int end,int searchNum){
         if (A[begin]>searchNum) {
             return begin-1;
         }
+        if (A[end]<searchNum) {
+            return end;
+        }
         return begin;
     }
     if (A[middle]==searchNum) {

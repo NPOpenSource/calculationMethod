@@ -14,5 +14,6 @@ void printArrIndex(int *arr,int begin,int end);
 void exchange(int* A,int * B);
 
 int* getMallocRandomNum(int length,int max);
-
+int* getMallocSize(int length);
+int randomNum(int p,int q);
 @end

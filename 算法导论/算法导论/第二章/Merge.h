@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 void merge(int * A ,int begin,int middle,int end);
 void mergeSort(int *A,int begin,int end);
+
+void mergeSortReverseOrderPair(int *A,int begin,int end,int * num);
 @interface Merge : NSObject
 
 @end

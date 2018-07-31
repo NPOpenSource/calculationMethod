@@ -24,6 +24,14 @@ void printArrIndex(int *arr,int begin,int end){
     NSLog(@"%@",str);
 }
 
+int* getMallocSize(int length){
+    if (length<=0) {
+        return NULL;
+    }
+        int * m = malloc(sizeof(int)*length);
+    memset(m, 0, sizeof(int)*length);
+    return m;
+}
 
 int* getMallocRandomNum(int length,int max){
     if (max<=0) {
@@ -45,4 +53,11 @@ void exchange(int* A,int * B){
     *B = middle;
     
 }
+
+int randomNum(int p,int q){
+    int m = q-p+1;
+    return random()%m+p;
+}
+
+
 @end
